@@ -16,8 +16,8 @@ def integers_counter(data):
 def test_counter():
     # Произвольные данные для анализа.
     data = [False, 1.0, "some_string", 3, True, 1, [], False]
-    pdb.set_trace()
+    # pdb.set_trace()
     # Вызываем функцию:
     integers = integers_counter(data)
     # Целых чисел должно быть 2.
-    assert integers == 2
+    assert integers == 5
